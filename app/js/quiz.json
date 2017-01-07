@@ -1,0 +1,48 @@
+{
+  "quiz":[
+        {
+          "question":"¿Cuál es el procedimiento para ocultar una categoría?",
+          "options":[
+            {
+              "answer":"Ir a la Ir a la pestaña View/Visibility Graphics/Annotation Categories/Deseleccionar la categoría requerida",
+              "value":"false"
+            },
+            {
+              "answer":"Ir a la pestaña View/Visibility Graphics/Model Categories/Visibility/Deseleccionar la categoría requerida",
+              "value":"true"
+            },
+            {
+              "answer":"Ir a la Ir a la pestaña View/Visibility Graphics/Model Categories/Object Styles/Deseleccionar la categoría requerida",
+              "value":"false"
+            },
+            {
+              "answer":"Ir a la Ir a la pestaña View/Visibility Graphics/Model Categories/Haftone/Seleccionar la categoría requerida",
+              "value":"false"
+            }
+          ]
+        },
+        {
+          "question":"¿Cuál es el procedimiento para ocultar elementos que están seleccionados?",
+          "options": [
+            {
+              "answer":"Dar clic derecho sobre alguno de los elementos seleccionados, del menú que se despliega ir a Override Graphics in View/By Elements.",
+              "value":"false"
+            },
+            {
+              "answer":"Dar clic derecho sobre alguno de los elementos seleccionados, del menú que se despliega ir a Hide in View/Filter.",
+              "value":"false"
+            },
+            {
+              "answer":"Dar clic derecho sobre alguno de los elementos seleccionados, del menú que se despliega ir a Hide in View/Category.",
+              "value":"false"
+            },
+            {
+              "answer":"Dar clic derecho sobre alguno de los elementos seleccionados, del menú que se despliega ir a Hide in View/Elements.",
+              "value":"true"
+            }
+          ]
+        }
+
+  ]
+
+}
