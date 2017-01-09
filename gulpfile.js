@@ -36,7 +36,7 @@ var config = { 
 gulp.task('browserSync', function() {
   browserSync({
     server: {
-      baseDir: 'dist',
+      baseDir: 'app',
       routes: {
       '/bower_components': 'bower_components'
     }
@@ -68,7 +68,7 @@ gulp.task('wiredep', function () {
   gulp.src('app/*.html')
   .pipe(debug({title:"wiredep"}))
     .pipe(wiredep({
-    
+
     }))
     .pipe(gulp.dest('app'));
 });
